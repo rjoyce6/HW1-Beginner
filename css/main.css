@@ -1,0 +1,136 @@
+/*========================================================
+          Sitewide Styles
+==========================================================*/
+
+/*Select and change position of the Body Section*/
+body {
+  background-color: #aeaeae;
+  color: black;
+  margin: 0;
+}
+
+/*Add color to the background of the Body Wrapper*/
+.wrapper {
+  margin: 0 auto;
+  width: 80%;
+}
+
+
+/*========================================================
+          Top Section
+==========================================================*/
+/*change the background where the logo is located*/
+.header {
+  background-color: #e5e5e5;
+  padding: 30px;
+}
+
+/*change the style and position of the logo*/
+.logo {
+  display: inline-block;
+  background-color: #aeaeae;
+  padding: 15px 50px;
+  text-transform: uppercase;
+  font-size: 48px;
+}
+
+
+
+/*========================================================
+          Navigation Section
+==========================================================*/
+/*change the background color of the navigation section*/
+.nav-menu {
+  background-color: #a3a3a3;
+}
+
+/*Change position of unordered lists*/
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+/*change style and position of the Lists*/
+.nav-menu li {
+  /*remove bullet points*/
+  list-style: none;
+  display: inline-block;
+  padding: 15px 25px;
+}
+
+/*Change the style of the links*/
+.nav-menu a {
+  color: white;
+  /*remove underlines from links*/
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/*========================================================
+          Text Section
+==========================================================*/
+/*Select and change main section*/
+.main {
+  background-color: #f3eff0;
+  float: left;
+  margin: 0;
+  width: 70%;
+  height: 600px;
+}
+
+/*Change position of paragraph*/
+.main p {
+  padding: 5px 35px;
+}
+
+/*Change style and position of the first header*/
+h1 {
+  display: block;
+  font-size: 2em;
+  padding-left: 35px;
+}
+
+
+/*========================================================
+          sidebar Section
+==========================================================*/
+/*Select and change sidebar layout and style*/
+.sidebar {
+  float: right;
+  width: 30%;
+  height: 600px;
+  background-color: #cecccd;
+
+}
+
+/*Change padding of second header*/
+h2 {
+  padding-left: 20px;
+}
+
+/*Move links to the right*/
+.sidebar ul {
+  padding-left: 40px;
+}
+
+
+/*========================================================
+          bottom Section
+==========================================================*/
+/*Select and change footer position and style*/
+.footer {
+  width: 100%;
+  /*No floating elements allowed on the left or the right side of a
+  specified element*/
+  clear: both;
+  background-color: #514F50;
+  font-size: 14px;
+  padding: 9px 0;
+}
+
+/*select and change footer text position and style*/
+.footer p {
+  margin: 0;
+  padding-left: 35px;
+  color: white;
+}
